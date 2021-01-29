@@ -227,7 +227,7 @@ width: 80vw;
 .hostingArticle{
 background-color: white;
 border-radius: 1rem;
-width: 27.6%;
+width: 27.3%;
 box-shadow: 0 0 20px #0000002e;
 margin: 2% 20px 2% 20px;
 padding: 0.3rem;
@@ -317,7 +317,7 @@ padding: 0.3rem;
     margin: 0px 20px 20px 20px;
     padding: 0.3rem;
     width: 100%;
-    height: 10vw;
+    height: 9.9rem;
   }
 
     .popularArticle:hover{
@@ -526,12 +526,12 @@ padding: 0.3rem;
     }
     .popularArticle{
         background-color: white;
-    border-radius: 1rem;
-    width: 27%;
-    height: 200px;
-    box-shadow: 0 0 20px #0000002e;
-    margin: 1% 20px 1% 20px;
-    padding: 0.3rem;
+        border-radius: 1rem;
+        width: 27%;
+        height: 145px;
+        box-shadow: 0 0 20px #0000002e;
+        margin: 1% 20px 1% 20px;
+        padding: 0.3rem;
     }
 }
 @media screen and (max-width: 890px) {
@@ -549,7 +549,7 @@ padding: 0.3rem;
     .headerLogo{
         display: flex;
         height: 3rem;
-        margin-left: 3.5rem;
+        margin: 1.3rem;
     }
     .headerNav{
         display: flex;
@@ -585,12 +585,12 @@ padding: 0.3rem;
         text-align: right;
         width: calc(50% - 20px);
     }
-    .searchTitles{
-        margin-left: 3.5rem;
+    .topSearch{
+        width: 90%;
+        margin: auto;
     }
     .searchForm{
         margin-top: 4vw;
-        margin-left: 3rem;
     }
     .searchButtonText{
         display: none;
@@ -610,23 +610,18 @@ padding: 0.3rem;
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: center;
-        margin-left: 1.5rem;
-    }
-    .filtersTitle{
-    margin-left: 2.2rem;
     }
 
     .filter{
         margin-top: 2vw;
-        margin-left: 1.5rem;
-        
+        margin-left: 0;
+        margin-right: 20px;
     }
     .result{
         display: flex;
-        margin-left: 50rem;
         line-height: 25px;
         align-items: flex-start;
-        margin: 20px 10px 20px 50px;
+        margin: 20px 10px 20px 0px;
     }
     .resultIcon{
         display: flex;
@@ -636,13 +631,14 @@ padding: 0.3rem;
         margin: auto;
     }
     .hosting{
-        margin-left: 3vw;
-        width: 97%;
+        margin: auto;
+        width: 90%;
         background-color: white;
     }
     .hostingArticle{
-        width: 93vw;
+        width: 100%;
         margin-left: 0;
+        margin: 10px 0;
     }
     .hostingTitle{
         margin: 30px 10px 10px 0px;
@@ -663,17 +659,18 @@ padding: 0.3rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 95%;
-        margin: 10px 10px 10px 10px;
+        width: 90%;
+        margin: 10px auto;
     }
     .popularArticleList{
         display: flex;
         flex-direction: column;
-        padding: 1rem 1rem 3rem 1rem;
+        padding: 0;
         width: calc(100% - 2rem);
     }
     .popularArticle{
-        width: calc(100% - 0.6rem - 40px);
+        width: calc(100% - 0.6rem);
+        margin: 10px auto;
     }
     .popularContentTitles{
         display: flex;
@@ -700,11 +697,11 @@ padding: 0.3rem;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        width: 93%;
-        margin: 20px 0px 50px 30px;
+        width: 90%;
+        margin: 20px auto;
         }
         .activityCard{
-            height: 30vw;
+            height: 50vw;
             margin-top: 4vw;
             width: 100%;
         }
@@ -719,5 +716,4 @@ padding: 0.3rem;
             margin-left: 3vw;
         }
 }
-
 
