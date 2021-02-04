@@ -251,8 +251,10 @@ padding: 0.3rem;
     margin: 45px 10px 10px 25px;
 }
 
-.hostingImgTitle{
+h3.hostingImgTitle{
     font-size: 1rem;
+    margin-top: 5px!important;
+    margin-left: 5px!important;
 }
 
 .hostingFigure{
@@ -263,7 +265,7 @@ padding: 0.3rem;
     margin: 0;
 }
 .hostingImg{
-  height: 9rem;
+  height: 115px;
   object-fit: cover;
   max-width: 100%;
   width: 100%;
@@ -272,14 +274,15 @@ padding: 0.3rem;
 }
 
 .hostingPrice{
-    margin-left: 0;
+    margin-left: 5px;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font-size: 1rem;
 }
 
 .hostingGrade{
-    margin-left: 0;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }    
 
 .hostingStar[data-active=true] {
@@ -317,7 +320,7 @@ padding: 0.3rem;
     margin: 0px 20px 20px 20px;
     padding: 0.3rem;
     width: 100%;
-    height: 9.9rem;
+    height: 145px;
   }
 
     .popularArticle:hover{
