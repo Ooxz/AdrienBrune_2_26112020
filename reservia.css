@@ -720,8 +720,11 @@ h3.hostingImgTitle{
         }
 
         .footerNav{
-            padding: 0;
+            padding: 0.7rem;
             margin-left: 3vw;
+        }
+        .footerLink{
+            margin-top: 0.7rem;
         }
 }
 
