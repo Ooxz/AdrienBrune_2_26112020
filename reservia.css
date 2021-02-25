@@ -38,7 +38,7 @@ font-size: 20px;
 
 .headerNavLink1{
    text-align: center; 
-   color: #0065FC;
+   color: black;
    border-top: 2px solid white;
    padding: 30px 10px 20px 10px;
 }
@@ -51,6 +51,7 @@ font-size: 20px;
 }
 
 .headerNavLink1:hover{
+    color: #0065FC;
     border-top: 2px solid #0065FC;
     padding: 30px 10px 20px 10px;
 }
