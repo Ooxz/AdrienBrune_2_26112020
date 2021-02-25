@@ -571,10 +571,11 @@ h3.hostingImgTitle{
         width: calc(50% - 20px);
         margin: 0;
         align-self: flex-end;
-        border-bottom: 3px solid #0065FC;
+        border-bottom: 3px solid #F2F2F2;
     }
     .headerNavLink1:hover{
         border-top: 0;
+        border-bottom: 3px solid #0065FC;
     }
     .headerNavLink2{
         order: 3;
@@ -585,6 +586,7 @@ h3.hostingImgTitle{
     }
     .headerNavLink2:hover{
         border-top: 0;
+        border-bottom: 3px solid #0065FC;
     }
     .headerNavSignup{
         order: 1;
