@@ -106,6 +106,7 @@ display: flex;
     border-right: none;
     border: 1px solid #F2F2F2;
     padding: 0 1rem;
+    outline: none;
 }
 
 .searchButton{
@@ -116,6 +117,7 @@ display: flex;
  border: 1px solid #F2F2F2;
  border-left: none;
  cursor: pointer;
+ outline: none;
 }
 
 .searchButtonText{
