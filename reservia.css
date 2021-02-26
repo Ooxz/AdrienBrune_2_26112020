@@ -20,6 +20,7 @@ font-size: 20px;
 
 .header a{
     text-decoration: none;
+    margin-left: 40px;
 }
 
 .headerLogo{
@@ -313,7 +314,7 @@ h3.hostingImgTitle{
     background-color: #F2F2F2;
     border-radius: 1rem;
     width: 35vw;
-    margin-left: 5vw;
+    margin-left: 50px;
     position: relative;
   }
   .popularArticle{
@@ -494,6 +495,7 @@ h3.hostingImgTitle{
 
 .footerLink{
     display: block;
+    margin-top: 0.7rem;
 }
 /*FOOTER*/
 @media all and (max-width: 1280px){
