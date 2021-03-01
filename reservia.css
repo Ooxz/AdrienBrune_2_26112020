@@ -555,6 +555,10 @@ h3.hostingImgTitle{
         align-items: center;
         width: 100%;
     }
+
+    .header a {
+        margin-left: 0;
+    }
     .headerLogo{
         display: flex;
         height: 3rem;
